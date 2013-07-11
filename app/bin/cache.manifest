@@ -1,0 +1,13 @@
+CACHE MANIFEST 
+#version:1373543038100
+CACHE:
+../index.html
+sumeru.css
+sumeru.js
+app.js
+view/hall.html
+view/rooms/create.html
+view/rooms/room.html
+view/user/create.html
+NETWORK:
+*

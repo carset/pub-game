@@ -1,0 +1,15 @@
+<div>
+	<h4>Room List</h4>
+	<ul>
+		<block tpl-id='room_list'>
+			{{#each data}}
+				<li><a href="javascript:;" refid="{{this.smr_id}}" name="enter">Room - {{ this.name }}</a></li>
+			{{/each}}
+		</block>
+	</ul>
+
+<hr>
+<block tpl-id="room_contro">
+	<button id="create">Create</button>
+</block>
+</div>
