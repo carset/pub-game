@@ -1,13 +1,18 @@
 CACHE MANIFEST 
-#version:1373543038100
+#version:1373980081807
 CACHE:
 ../index.html
 sumeru.css
 sumeru.js
 app.js
+view/.DS_Store
 view/hall.html
-view/rooms/create.html
-view/rooms/room.html
-view/user/create.html
+view/inc/.DS_Store
+view/inc/footer.html
+view/inc/header.html
+view/inc/jiu.css
+view/room.html
+view/room_create.html
+view/user_create.html
 NETWORK:
 *

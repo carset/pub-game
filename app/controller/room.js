@@ -32,7 +32,7 @@ App.room = sumeru.controller.create(function(env,session,param){
 
      //渲染
     env.onrender = function(render) {
-        render('rooms/room',['push','left']);
+        render('room',['push','left']);
     }
 
     var update_user = function(){
@@ -90,7 +90,7 @@ App.room = sumeru.controller.create(function(env,session,param){
                         session.users.update({'wager': wager[i % may]},{'smr_id':users[i].smr_id});
                     }
                     session.users.save();//保存用户信息
-                    session.room.update({'admin': Library.cookie.getCookie('username')},{'smr_id':room_id});
+                    session.room.update({'admin': unescape(Library.cookie.getCookie('username'))},{'smr_id':room_id});
                     session.room.save();//保存出牌信息
                 },500);
             });
@@ -112,7 +112,7 @@ App.create_room = sumeru.controller.create(function(env,session){
 
     //渲染
     env.onrender = function(render) {
-        render('rooms/create',['push','left']);
+        render('room_create',['push','left']);
     }
 
     //完成

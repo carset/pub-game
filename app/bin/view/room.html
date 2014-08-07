@@ -1,4 +1,12 @@
-<p style='color:red'>error including : ../inc/header</p>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport"  content="width=device-width,  minimum-scale=1.0, maximum-scale=1.0" />
+<link href="view/inc/jiu.css" rel="stylesheet"  />
+</head>
+
+<body>
+
 	<block tpl-id="room_info">
 		<div class="box tit">{{room.name}}</div>
 		<div class="note">{{room.admin}} 已提交</div>
@@ -8,7 +16,7 @@
 			<block tpl-id="users_list">
 					{{#each users}}
 				<li>
-					<div class="result box1">{{this.name}} {{this.wager}}</div>
+					<div class="result box1">{{this.name}} {{winger this.wager }}</div>
 				</li>
 					{{/each}}
 			</block>
@@ -20,4 +28,6 @@
 		</block>
 	</div>
 
-<p style='color:red'>error including : ../inc/footer</p>
+
+</body>
+</html>

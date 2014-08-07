@@ -20,7 +20,7 @@ App.user_create = sumeru.controller.create(function(env,session,param){
 
     //渲染
     env.onrender = function(render) {
-        render('user/create',['push','left']);
+        render('user_create',['push','left']);
     }
 
     //完成

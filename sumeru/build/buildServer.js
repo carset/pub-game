@@ -188,8 +188,6 @@ module.exports = function(appDir, destBinDir){
 								    
 								    haveReachedParse = true;
 								    
-								    
-								    
 								    if(typeof asyncPartialMap[partialName] == 'undefined'){
 									
 									fs.readFile(path.dirname(dircetoryPath) + '/' + partialName + '.html', 'utf-8', function(error, content){

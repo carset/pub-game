@@ -1,0 +1,59 @@
+/* CSS Document */
+body{
+	background-color:#e8e8e8;
+	margin:0;}
+.logo{
+	background: url(../../res/logo.png) center 0 no-repeat #f4d86b;
+	background-size: 256px 120px;
+	margin:0 auto 2px auto;
+	height:122px;
+	}
+h1{ font-size:12px;}
+.con{ margin:5px 10px;}
+.box{ width:94%;
+	padding:15px 10px;
+	margin:0 auto;
+	}
+.box1{ width:94%;
+	padding:18px 10px;
+	margin:0 auto;
+	}
+.list{ background-color:#FFF;
+	margin:0 0 5px 0;
+	color:#16A085;}
+.btn1{ background-color:#E74C3C;
+	margin:10px 0;
+	text-align:center;
+	color:#fff;
+	}
+.btn2{ background-color:#7F8C8D;
+	margin:10px 0;
+	text-align:center;
+	color:#fff;
+	}
+.ipt{ border:#FF0000;
+	font-size:16px;
+	}
+.tit{ margin:0;
+	padding:10px 15px;
+	text-align:center;
+	background-color:#2C3E50;
+	color:#FFF;
+	font-size:16px;
+
+}
+.note{ margin:0;
+	padding:5px;
+	text-align:center;
+	background-color:#F1C40F;
+	color:#C0392B;
+	font-size:14px;}
+	
+.result{
+	background-color:#1ABC9C;
+	margin:0 0 5px 0;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	
+	}

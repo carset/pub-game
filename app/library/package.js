@@ -1,2 +1,3 @@
 sumeru.packages(
+	'winger.js'
 );

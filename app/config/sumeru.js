@@ -5,6 +5,7 @@ var socketPort =
     80 : 8082;
 var clientSocketServer = typeof location !== 'undefined' ? 
         location.hostname + ':' + socketPort + '/socket/' : '';
+        //location.hostname + '/socket/' : '';
 
 clientSocketServer = clientSocketServer.replace('.duapp.com', '.sx.duapp.com'); 
 

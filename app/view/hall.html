@@ -1,15 +1,20 @@
-<div>
-	<h4>Room List</h4>
-	<ul>
-		<block tpl-id='room_list'>
-			{{#each data}}
-				<li><a href="javascript:;" refid="{{this.smr_id}}" name="enter">Room - {{ this.name }}</a></li>
-			{{/each}}
-		</block>
-	</ul>
+	{{> inc/header}}
 
-<hr>
-<block tpl-id="room_contro">
-	<button id="create">Create</button>
-</block>
-</div>
+	<div class="logo"></div>
+	<div class="con">
+		<h1>房间列表</h1>
+		<ul style="list-style-type:none; margin-left:-40px;">
+			<block tpl-id='room_list'>
+				{{#each data}}
+					<li>
+						<div class="box list" onClick="location.href='javascript:;';" refid="{{this.smr_id}}" name="enter">{{ this.name }}
+						</div>
+					</li>
+				{{/each}}
+			</block>
+		</ul>
+		<block tpl-id="room_contro">
+			<div class="btn1 box" onClick="location.href='javascript:;';" id="create">创建房间</div>
+		</block>
+	</div>
+{{> inc/footer}}
